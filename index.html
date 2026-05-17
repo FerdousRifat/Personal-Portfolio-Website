@@ -11,8 +11,7 @@
       <img
         src="assets/Logo_My_Name.png"
         alt="Logo - Ferdous Oahid RIFAT"
-        id="logo"
-      />
+        id="logo" />
       <nav>
         <ul>
           <li><a href="#hero">Home</a></li>
@@ -24,20 +23,110 @@
         </ul>
       </nav>
     </header>
-    <section class="hero-section">
+    <section id="hero" class="hero-section">
       <div>
         <img
           src="assets/Photo_My_Profile.jpg"
           alt="My Profile Photo"
-          id="profile-photo"
-        />
+          id="profile-photo" />
         <h1>Hi, I'm S.M. Ferdous Oahid RIFAT</h1>
         <p>A passionate MERN Stack Developer</p>
       </div>
       <div id="hero-buttons">
-        <button onclick="window.location.href='assets/CV_Rifat.pdf'" download>Download CV</button>
-        <button onclick="window.location.href='tel:+8801794896589'">Contact Me</button>
+        <button
+          class="btn-download"
+          onclick="window.open('assets/CV_Rifat.pdf', '_blank')">
+          Download CV
+        </button>
+        <button
+          class="btn-contact"
+          onclick="window.location.href = 'tel:+8801794896589'">
+          Contact Me
+        </button>
       </div>
     </section>
+    <section id="about" class="about-section">
+      <h2>About Me</h2>
+      <p>
+        I am a dedicated MERN Stack Developer with a strong passion for creating
+        dynamic and responsive web applications. With a solid foundation in
+        JavaScript, I specialize in using MongoDB, Express.js, React, and
+        Node.js to build efficient and scalable solutions. My goal is to
+        continuously enhance my skills and contribute to innovative projects
+        that make a positive impact.
+      </p>
+    </section>
+    <section id="skills">
+      <h2>My Skills</h2>
+
+      <div class="skill">
+        <span>HTML</span>
+        <div class="bar"><div class="html"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>CSS</span>
+        <div class="bar"><div class="css"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>JavaScript</span>
+        <div class="bar"><div class="js"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>React</span>
+        <div class="bar"><div class="react"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>Node.js</span>
+        <div class="bar"><div class="node"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>MongoDB</span>
+        <div class="bar"><div class="mongo"></div></div>
+      </div>
+    </section>
+    <section id="projects">
+      <h2>My Projects</h2>
+
+      <article class="project-card">
+        <img src="assets/project1.jpg" alt="Project 1" />
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio website built using HTML and CSS.</p>
+        <a href="#" target="_blank">Live Demo</a>
+      </article>
+
+      <article class="project-card">
+        <img src="assets/project2.jpg" alt="Project 2" />
+        <h3>Landing Page</h3>
+        <p>A responsive landing page design with modern UI.</p>
+        <a href="#" target="_blank">Live Demo</a>
+      </article>
+
+      <article class="project-card">
+        <img src="assets/project3.jpg" alt="Project 3" />
+        <h3>Blog Template</h3>
+        <p>A simple blog template layout using HTML and CSS.</p>
+        <a href="#" target="_blank">Live Demo</a>
+      </article>
+    </section>
+    <footer id="footer">
+      <p>© 2026 Ferdous Oahid RIFAT. All Rights Reserved.</p>
+
+      <div class="social-links">
+        <a
+          href="https://www.facebook.com/s.m.ferdousoahid.rifat/"
+          target="_blank"
+          >Facebook</a
+        >
+        <a href="https://github.com/FerdousRifat" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/ferdousrifat" target="_blank"
+          >LinkedIn</a
+        >
+      </div>
+    </footer>
   </body>
 </html>
